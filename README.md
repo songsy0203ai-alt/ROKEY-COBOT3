@@ -132,19 +132,6 @@ python3 /cobot3_ws/07_ui_integration/v2.py
 
 ---
 
-## 📊 Model Training Results
-
-| Run | Date | mAP50 | Notes |
-|-----|------|-------|-------|
-| train_1 | 2026-03-10 | - | Initial run |
-| train_2 | 2026-03-10 | - | Hyperparameter tuning |
-| train_3 | 2026-03-10 | - | Augmentation update |
-| train_4 | 2026-03-13 | - | **Final model** |
-
-> 각 run의 best weights는 `yolo_wafer/train_YYYYMMDD_HHMMSS/weights/best.pt`에 저장됩니다.
-
----
-
 ## 📁 Key Directories
 
 | 폴더 | 설명 |
